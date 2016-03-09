@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.n1 = new System.Windows.Forms.Button();
             this.n2 = new System.Windows.Forms.Button();
             this.n3 = new System.Windows.Forms.Button();
@@ -55,12 +56,29 @@
             this.expo = new System.Windows.Forms.Button();
             this.b00 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.Log = new System.Windows.Forms.Button();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // n1
             // 
-            this.n1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.n1.Location = new System.Drawing.Point(33, 281);
+            this.n1.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n1.ForeColor = System.Drawing.Color.White;
+            this.n1.Image = ((System.Drawing.Image)(resources.GetObject("n1.Image")));
+            this.n1.Location = new System.Drawing.Point(6, 179);
             this.n1.Name = "n1";
             this.n1.Size = new System.Drawing.Size(44, 40);
             this.n1.TabIndex = 0;
@@ -70,8 +88,10 @@
             // 
             // n2
             // 
-            this.n2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.n2.Location = new System.Drawing.Point(95, 281);
+            this.n2.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n2.ForeColor = System.Drawing.Color.White;
+            this.n2.Image = ((System.Drawing.Image)(resources.GetObject("n2.Image")));
+            this.n2.Location = new System.Drawing.Point(68, 179);
             this.n2.Name = "n2";
             this.n2.Size = new System.Drawing.Size(44, 40);
             this.n2.TabIndex = 0;
@@ -81,8 +101,10 @@
             // 
             // n3
             // 
-            this.n3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.n3.Location = new System.Drawing.Point(156, 281);
+            this.n3.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n3.ForeColor = System.Drawing.Color.White;
+            this.n3.Image = ((System.Drawing.Image)(resources.GetObject("n3.Image")));
+            this.n3.Location = new System.Drawing.Point(129, 179);
             this.n3.Name = "n3";
             this.n3.Size = new System.Drawing.Size(44, 40);
             this.n3.TabIndex = 0;
@@ -92,8 +114,10 @@
             // 
             // btCE
             // 
-            this.btCE.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCE.Location = new System.Drawing.Point(33, 108);
+            this.btCE.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btCE.ForeColor = System.Drawing.Color.White;
+            this.btCE.Image = ((System.Drawing.Image)(resources.GetObject("btCE.Image")));
+            this.btCE.Location = new System.Drawing.Point(7, 6);
             this.btCE.Name = "btCE";
             this.btCE.Size = new System.Drawing.Size(44, 40);
             this.btCE.TabIndex = 0;
@@ -103,8 +127,10 @@
             // 
             // botaoC
             // 
-            this.botaoC.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoC.Location = new System.Drawing.Point(95, 108);
+            this.botaoC.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoC.ForeColor = System.Drawing.Color.White;
+            this.botaoC.Image = ((System.Drawing.Image)(resources.GetObject("botaoC.Image")));
+            this.botaoC.Location = new System.Drawing.Point(68, 6);
             this.botaoC.Name = "botaoC";
             this.botaoC.Size = new System.Drawing.Size(44, 40);
             this.botaoC.TabIndex = 0;
@@ -114,8 +140,10 @@
             // 
             // Porcentage
             // 
-            this.Porcentage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Porcentage.Location = new System.Drawing.Point(156, 108);
+            this.Porcentage.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Porcentage.ForeColor = System.Drawing.Color.White;
+            this.Porcentage.Image = ((System.Drawing.Image)(resources.GetObject("Porcentage.Image")));
+            this.Porcentage.Location = new System.Drawing.Point(129, 6);
             this.Porcentage.Name = "Porcentage";
             this.Porcentage.Size = new System.Drawing.Size(44, 40);
             this.Porcentage.TabIndex = 0;
@@ -125,8 +153,10 @@
             // 
             // Divisao
             // 
-            this.Divisao.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Divisao.Location = new System.Drawing.Point(218, 108);
+            this.Divisao.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Divisao.ForeColor = System.Drawing.Color.White;
+            this.Divisao.Image = ((System.Drawing.Image)(resources.GetObject("Divisao.Image")));
+            this.Divisao.Location = new System.Drawing.Point(191, 6);
             this.Divisao.Name = "Divisao";
             this.Divisao.Size = new System.Drawing.Size(44, 40);
             this.Divisao.TabIndex = 0;
@@ -136,8 +166,10 @@
             // 
             // n4
             // 
-            this.n4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.n4.Location = new System.Drawing.Point(33, 224);
+            this.n4.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n4.ForeColor = System.Drawing.Color.White;
+            this.n4.Image = ((System.Drawing.Image)(resources.GetObject("n4.Image")));
+            this.n4.Location = new System.Drawing.Point(6, 122);
             this.n4.Name = "n4";
             this.n4.Size = new System.Drawing.Size(44, 40);
             this.n4.TabIndex = 0;
@@ -147,8 +179,10 @@
             // 
             // n5
             // 
-            this.n5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.n5.Location = new System.Drawing.Point(95, 224);
+            this.n5.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n5.ForeColor = System.Drawing.Color.White;
+            this.n5.Image = ((System.Drawing.Image)(resources.GetObject("n5.Image")));
+            this.n5.Location = new System.Drawing.Point(68, 122);
             this.n5.Name = "n5";
             this.n5.Size = new System.Drawing.Size(44, 40);
             this.n5.TabIndex = 0;
@@ -158,8 +192,10 @@
             // 
             // n6
             // 
-            this.n6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.n6.Location = new System.Drawing.Point(156, 224);
+            this.n6.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.n6.ForeColor = System.Drawing.Color.White;
+            this.n6.Image = ((System.Drawing.Image)(resources.GetObject("n6.Image")));
+            this.n6.Location = new System.Drawing.Point(129, 122);
             this.n6.Name = "n6";
             this.n6.Size = new System.Drawing.Size(44, 40);
             this.n6.TabIndex = 0;
@@ -169,8 +205,10 @@
             // 
             // Menos
             // 
-            this.Menos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Menos.Location = new System.Drawing.Point(218, 224);
+            this.Menos.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Menos.ForeColor = System.Drawing.Color.White;
+            this.Menos.Image = ((System.Drawing.Image)(resources.GetObject("Menos.Image")));
+            this.Menos.Location = new System.Drawing.Point(191, 122);
             this.Menos.Name = "Menos";
             this.Menos.Size = new System.Drawing.Size(44, 40);
             this.Menos.TabIndex = 0;
@@ -180,8 +218,10 @@
             // 
             // b7
             // 
-            this.b7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b7.Location = new System.Drawing.Point(33, 165);
+            this.b7.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b7.ForeColor = System.Drawing.Color.White;
+            this.b7.Image = ((System.Drawing.Image)(resources.GetObject("b7.Image")));
+            this.b7.Location = new System.Drawing.Point(6, 63);
             this.b7.Name = "b7";
             this.b7.Size = new System.Drawing.Size(44, 40);
             this.b7.TabIndex = 0;
@@ -191,8 +231,10 @@
             // 
             // b8
             // 
-            this.b8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b8.Location = new System.Drawing.Point(95, 165);
+            this.b8.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b8.ForeColor = System.Drawing.Color.White;
+            this.b8.Image = ((System.Drawing.Image)(resources.GetObject("b8.Image")));
+            this.b8.Location = new System.Drawing.Point(68, 63);
             this.b8.Name = "b8";
             this.b8.Size = new System.Drawing.Size(44, 40);
             this.b8.TabIndex = 0;
@@ -202,8 +244,10 @@
             // 
             // b9
             // 
-            this.b9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b9.Location = new System.Drawing.Point(156, 165);
+            this.b9.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b9.ForeColor = System.Drawing.Color.White;
+            this.b9.Image = ((System.Drawing.Image)(resources.GetObject("b9.Image")));
+            this.b9.Location = new System.Drawing.Point(129, 63);
             this.b9.Name = "b9";
             this.b9.Size = new System.Drawing.Size(44, 40);
             this.b9.TabIndex = 0;
@@ -213,8 +257,10 @@
             // 
             // Vezes
             // 
-            this.Vezes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Vezes.Location = new System.Drawing.Point(218, 165);
+            this.Vezes.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Vezes.ForeColor = System.Drawing.Color.White;
+            this.Vezes.Image = ((System.Drawing.Image)(resources.GetObject("Vezes.Image")));
+            this.Vezes.Location = new System.Drawing.Point(191, 63);
             this.Vezes.Name = "Vezes";
             this.Vezes.Size = new System.Drawing.Size(44, 40);
             this.Vezes.TabIndex = 0;
@@ -224,9 +270,11 @@
             // 
             // ponto
             // 
-            this.ponto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ponto.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ponto.ForeColor = System.Drawing.Color.White;
+            this.ponto.Image = ((System.Drawing.Image)(resources.GetObject("ponto.Image")));
             this.ponto.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ponto.Location = new System.Drawing.Point(33, 338);
+            this.ponto.Location = new System.Drawing.Point(6, 236);
             this.ponto.Name = "ponto";
             this.ponto.Size = new System.Drawing.Size(44, 40);
             this.ponto.TabIndex = 0;
@@ -237,8 +285,10 @@
             // 
             // b0
             // 
-            this.b0.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b0.Location = new System.Drawing.Point(95, 338);
+            this.b0.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b0.ForeColor = System.Drawing.Color.White;
+            this.b0.Image = ((System.Drawing.Image)(resources.GetObject("b0.Image")));
+            this.b0.Location = new System.Drawing.Point(68, 236);
             this.b0.Name = "b0";
             this.b0.Size = new System.Drawing.Size(44, 40);
             this.b0.TabIndex = 0;
@@ -248,8 +298,9 @@
             // 
             // igual
             // 
-            this.igual.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.igual.Location = new System.Drawing.Point(218, 281);
+            this.igual.Font = new System.Drawing.Font("Digital-7", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.igual.Image = ((System.Drawing.Image)(resources.GetObject("igual.Image")));
+            this.igual.Location = new System.Drawing.Point(191, 179);
             this.igual.Name = "igual";
             this.igual.Size = new System.Drawing.Size(44, 97);
             this.igual.TabIndex = 0;
@@ -259,9 +310,9 @@
             // 
             // bSoma
             // 
-            this.bSoma.AutoSize = true;
-            this.bSoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bSoma.Location = new System.Drawing.Point(277, 281);
+            this.bSoma.Font = new System.Drawing.Font("Digital-7", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bSoma.Image = ((System.Drawing.Image)(resources.GetObject("bSoma.Image")));
+            this.bSoma.Location = new System.Drawing.Point(250, 179);
             this.bSoma.Name = "bSoma";
             this.bSoma.Size = new System.Drawing.Size(44, 97);
             this.bSoma.TabIndex = 0;
@@ -273,8 +324,8 @@
             // 
             this.label1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 36);
+            this.label1.Font = new System.Drawing.Font("Digital-7 Mono", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(319, 43);
             this.label1.TabIndex = 1;
@@ -287,8 +338,10 @@
             // 
             // raiz
             // 
-            this.raiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.raiz.Location = new System.Drawing.Point(277, 109);
+            this.raiz.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.raiz.ForeColor = System.Drawing.Color.White;
+            this.raiz.Image = ((System.Drawing.Image)(resources.GetObject("raiz.Image")));
+            this.raiz.Location = new System.Drawing.Point(250, 7);
             this.raiz.Name = "raiz";
             this.raiz.Size = new System.Drawing.Size(44, 40);
             this.raiz.TabIndex = 2;
@@ -298,8 +351,10 @@
             // 
             // expo
             // 
-            this.expo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.expo.Location = new System.Drawing.Point(277, 166);
+            this.expo.Font = new System.Drawing.Font("Digital-7", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.expo.ForeColor = System.Drawing.Color.White;
+            this.expo.Image = ((System.Drawing.Image)(resources.GetObject("expo.Image")));
+            this.expo.Location = new System.Drawing.Point(250, 64);
             this.expo.Name = "expo";
             this.expo.Size = new System.Drawing.Size(44, 40);
             this.expo.TabIndex = 2;
@@ -309,8 +364,10 @@
             // 
             // b00
             // 
-            this.b00.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.b00.Location = new System.Drawing.Point(156, 338);
+            this.b00.Font = new System.Drawing.Font("Digital-7", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b00.ForeColor = System.Drawing.Color.White;
+            this.b00.Image = ((System.Drawing.Image)(resources.GetObject("b00.Image")));
+            this.b00.Location = new System.Drawing.Point(129, 236);
             this.b00.Name = "b00";
             this.b00.Size = new System.Drawing.Size(44, 40);
             this.b00.TabIndex = 3;
@@ -321,45 +378,184 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(235, 381);
+            this.label2.Font = new System.Drawing.Font("Digital-7", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(188, 303);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 13);
+            this.label2.Size = new System.Drawing.Size(117, 17);
             this.label2.TabIndex = 4;
             this.label2.Text = "By Nathan Vieira";
+            // 
+            // Log
+            // 
+            this.Log.Font = new System.Drawing.Font("Digital-7", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Log.ForeColor = System.Drawing.Color.White;
+            this.Log.Image = ((System.Drawing.Image)(resources.GetObject("Log.Image")));
+            this.Log.Location = new System.Drawing.Point(250, 122);
+            this.Log.Name = "Log";
+            this.Log.Size = new System.Drawing.Size(44, 40);
+            this.Log.TabIndex = 5;
+            this.Log.Text = "log";
+            this.Log.UseVisualStyleBackColor = true;
+            this.Log.Click += new System.EventHandler(this.Log_Click);
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(12, 73);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(319, 310);
+            this.tabControl1.TabIndex = 6;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage1.Controls.Add(this.btCE);
+            this.tabPage1.Controls.Add(this.Log);
+            this.tabPage1.Controls.Add(this.n1);
+            this.tabPage1.Controls.Add(this.label2);
+            this.tabPage1.Controls.Add(this.ponto);
+            this.tabPage1.Controls.Add(this.b00);
+            this.tabPage1.Controls.Add(this.n2);
+            this.tabPage1.Controls.Add(this.expo);
+            this.tabPage1.Controls.Add(this.b0);
+            this.tabPage1.Controls.Add(this.raiz);
+            this.tabPage1.Controls.Add(this.b7);
+            this.tabPage1.Controls.Add(this.n4);
+            this.tabPage1.Controls.Add(this.Menos);
+            this.tabPage1.Controls.Add(this.botaoC);
+            this.tabPage1.Controls.Add(this.Vezes);
+            this.tabPage1.Controls.Add(this.b8);
+            this.tabPage1.Controls.Add(this.Divisao);
+            this.tabPage1.Controls.Add(this.n5);
+            this.tabPage1.Controls.Add(this.bSoma);
+            this.tabPage1.Controls.Add(this.n3);
+            this.tabPage1.Controls.Add(this.n6);
+            this.tabPage1.Controls.Add(this.igual);
+            this.tabPage1.Controls.Add(this.b9);
+            this.tabPage1.Controls.Add(this.Porcentage);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(311, 284);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Calculadora";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.Controls.Add(this.label6);
+            this.tabPage2.Controls.Add(this.label5);
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.label3);
+            this.tabPage2.Controls.Add(this.button1);
+            this.tabPage2.Controls.Add(this.textBox3);
+            this.tabPage2.Controls.Add(this.textBox2);
+            this.tabPage2.Controls.Add(this.textBox1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(311, 284);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Regra de 3";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(201, 147);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(82, 20);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Está para ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(25, 147);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(103, 20);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Assim como :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(195, 54);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 20);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Está para :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(42, 54);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 20);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "O valor :";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("DS-Digital", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(213, 172);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(55, 49);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "=";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.textBox3.Font = new System.Drawing.Font("Digital-7 Mono", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(32, 172);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(83, 49);
+            this.textBox3.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.textBox2.Font = new System.Drawing.Font("Digital-7 Mono", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(198, 77);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(83, 49);
+            this.textBox2.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.textBox1.Font = new System.Drawing.Font("Digital-7 Mono", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(34, 77);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(83, 49);
+            this.textBox1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(339, 395);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.b00);
-            this.Controls.Add(this.expo);
-            this.Controls.Add(this.raiz);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.Menos);
-            this.Controls.Add(this.Vezes);
-            this.Controls.Add(this.Divisao);
-            this.Controls.Add(this.bSoma);
-            this.Controls.Add(this.n6);
-            this.Controls.Add(this.b9);
-            this.Controls.Add(this.Porcentage);
-            this.Controls.Add(this.igual);
-            this.Controls.Add(this.n3);
-            this.Controls.Add(this.n5);
-            this.Controls.Add(this.b8);
-            this.Controls.Add(this.botaoC);
-            this.Controls.Add(this.n4);
-            this.Controls.Add(this.b7);
-            this.Controls.Add(this.btCE);
-            this.Controls.Add(this.b0);
-            this.Controls.Add(this.n2);
-            this.Controls.Add(this.ponto);
-            this.Controls.Add(this.n1);
             this.Name = "Form1";
             this.Text = "Calculadora !";
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -391,6 +587,18 @@
         private System.Windows.Forms.Button expo;
         private System.Windows.Forms.Button b00;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button Log;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
     }
 }
 

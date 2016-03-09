@@ -13,11 +13,13 @@ namespace Calculadora
     public partial class Form1 : Form
     {
         private string parcela1, parcela2;
-        private double result;
-        private bool par1_ok, par2_ok,soma,div,sub,mult,porc,raz,exp;
+        private double result,r3result;
+        
+        private bool par1_ok, par2_ok,r3,soma,div,sub,mult,porc,raz,exp,log;
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private void n1_Click(object sender, EventArgs e)
@@ -25,7 +27,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "1";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -40,7 +42,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "2";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -55,7 +57,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "3";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -69,7 +71,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "4";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -83,7 +85,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "5";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -97,7 +99,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "6";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -111,7 +113,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "7";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -125,7 +127,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "8";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -139,7 +141,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "9";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -152,7 +154,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "0";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -165,7 +167,7 @@ namespace Calculadora
             if (!par1_ok)
             {
                 parcela1 += "00";
-
+                r3 = false;
             }
             else if (!par2_ok)
             {
@@ -199,7 +201,12 @@ namespace Calculadora
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (!par1_ok)
+            if (r3)
+            {
+                label1.Text = r3result.ToString();
+                
+            }
+            else if (!par1_ok)
             {
                 label1.Text = parcela1;
             }
@@ -207,7 +214,7 @@ namespace Calculadora
             {
                 label1.Text = parcela2;
             }
-            else if (par1_ok&&par2_ok)
+            else if (par1_ok && par2_ok)
             {
                 label1.Text = result.ToString();
             }
@@ -272,6 +279,11 @@ namespace Calculadora
                 {
                     result = (Math.Pow(Convert.ToDouble(parcela1), Convert.ToDouble(parcela2)));
                     exp = false;
+                }
+                else if (log)
+                {
+                    result = (Math.Log(Convert.ToDouble(parcela1), Convert.ToDouble(parcela2)));
+                    log = false;
                 }
                                 
             }
@@ -424,6 +436,43 @@ namespace Calculadora
                 exp = true;
             }
         }
+
+        private void Log_Click(object sender, EventArgs e)
+        {
+            if (!par1_ok)
+            {
+                par1_ok = true;
+                log = true;
+            }
+            else if (par1_ok && !par2_ok && parcela2 != "")
+            {
+                par2_ok = true;
+                result = (Math.Log(Convert.ToDouble(parcela1), Convert.ToDouble(parcela2)));
+
+
+            }
+            else if (par1_ok && par2_ok)
+            {
+                parcela1 = result.ToString();
+                parcela2 = "";
+                par2_ok = false;
+                log = true;
+            }
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double a, b, c;
+            a = Convert.ToDouble(textBox1.Text);
+            b = Convert.ToDouble(textBox2.Text);
+            c = Convert.ToDouble(textBox3.Text);
+            r3result = (b*c)/a ;
+            r3 = true;
+        }
+        
+
+        
 
         
 
